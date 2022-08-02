@@ -1,0 +1,2739 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Extent</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Automation Report</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Aug 1, 2022 02:26:49 pm</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">@kumaraguru</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="fail" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">student profile activation</p>
+            <p class="text-sm">
+              <span>2:26:50 pm</span> / <span>00:00:00:620</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">student profile activation</h5>
+<span class='badge badge-success'>08.01.2022 2:26:50 pm</span>
+<span class='badge badge-danger'>08.01.2022 2:26:51 pm</span>
+<span class='badge badge-default'>00:00:00:620</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="3"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0601" and "9786536382" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="5"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0602" and "6381241260" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="7"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0603" and "8825600349" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="9"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0604" and "9952033637" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="11"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0605" and "9952033638" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="13"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0606" and "9952033639" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="15"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0607" and "9952033640" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="17"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0608" and "9952033641" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="19"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0609" and "9952033642" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="21"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0610" and "9952033643" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="23"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0611" and "9952033644" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="25"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0612" and "9952033645" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="27"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0613" and "9952033646" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="29"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0614" and "9952033647" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="31"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0615" and "9952033648" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="33"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0616" and "9952033649" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="35"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0617" and "9952033650" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="37"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0618" and "9952033651" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="39"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0619" and "9952033652" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="41"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0620" and "9952033653" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="43"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0621" and "9952033654" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="45"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0622" and "9952033655" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="47"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0623" and "9952033656" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="49"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0624" and "9952033657" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="51"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0625" and "9952033658" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="53"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0626" and "9952033659" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="55"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0627" and "9952033660" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="57"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0628" and "9952033661" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="59"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0629" and "9952033662" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="61"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0630" and "9952033663" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="63"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0631" and "9952033664" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="65"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0632" and "9952033665" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="67"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0633" and "9952033666" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="69"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0634" and "9952033667" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="71"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0635" and "9952033668" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="73"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0636" and "9952033669" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="75"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0637" and "9952033670" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="77"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0638" and "9952033671" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="79"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0639" and "9952033672" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="81"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0640" and "9952033673" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="83"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0641" and "9952033674" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="85"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0642" and "9952033675" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="87"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0643" and "9952033676" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="89"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0644" and "9952033677" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="91"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0645" and "9952033678" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="93"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0646" and "9952033679" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="95"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0647" and "9952033680" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="97"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0648" and "9952033681" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="99"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0649" and "9952033682" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="101"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0650" and "9952033683" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="103"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0651" and "9952033684" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="105"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0652" and "9952033685" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="107"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0653" and "9952033686" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="109"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0654" and "9952033687" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="111"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0655" and "9952033688" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="113"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0656" and "9952033689" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="115"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0657" and "9952033690" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="117"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0658" and "9952033691" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="119"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0659" and "9952033692" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="121"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0660" and "9952033693" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="123"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0661" and "9952033694" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="125"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0662" and "9952033695" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="127"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0663" and "9952033696" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="129"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0664" and "9952033697" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="131"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0665" and "9952033698" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="133"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0666" and "9952033699" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="135"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0667" and "9952033700" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="137"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0668" and "9952033701" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="139"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0669" and "9952033702" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="141"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0670" and "9952033703" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="143"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0671" and "9952033704" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="145"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0672" and "9952033705" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="147"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0673" and "9952033706" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="149"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0674" and "9952033707" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="151"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0675" and "9952033708" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="153"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0676" and "9952033709" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="155"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0677" and "9952033710" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="157"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0678" and "9952033711" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="159"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0679" and "9952033712" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="161"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0680" and "9952033713" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="163"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0681" and "9952033714" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="165"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0682" and "9952033715" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="167"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0683" and "9952033716" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="169"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0684" and "9952033717" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="171"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0685" and "9952033718" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="173"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0686" and "9952033719" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="175"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0687" and "9952033720" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="177"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0688" and "9952033721" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="179"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0689" and "9952033722" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="181"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0690" and "9952033723" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="183"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0691" and "9952033724" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="185"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0692" and "9952033725" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="187"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0693" and "9952033726" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="189"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0694" and "9952033727" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="191"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0695" and "9952033728" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="193"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0696" and "9952033729" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="195"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0697" and "9952033730" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="197"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0698" and "9952033731" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="199"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0699" and "9952033732" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="201"><span class="badge log fail-bg mr-2">Fail</span>to activate kumaraguru college student profiles</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given each student logs into student login with valid "6KECSC0700" and "9952033733" does payment to activate their profile</span>
+      <div>Step undefined
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>101</span>
+</span>
+<p class="name">@kumaraguru</p>
+<p class="duration text-sm">101 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@kumaraguru</h4>
+<span status="fail" class='badge log badge-danger'>101 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:50 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:50 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='3'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:50 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='5'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:50 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='7'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:50 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='9'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:50 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='11'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:50 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='13'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:50 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='15'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:50 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='17'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:50 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='19'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:50 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='21'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:50 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='23'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:50 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='25'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:50 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='27'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:50 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='29'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:50 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='31'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:50 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='33'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:50 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='35'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:50 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='37'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:50 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='39'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:50 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='41'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:50 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='43'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:50 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='45'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:50 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='47'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:50 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='49'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:50 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='51'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:50 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='53'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:50 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='55'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:50 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='57'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:50 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='59'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:50 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='61'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:50 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='63'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:50 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='65'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:50 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='67'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:50 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='69'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:50 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='71'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:50 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='73'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:50 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='75'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:50 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='77'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:50 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='79'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:50 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='81'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:50 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='83'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:50 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='85'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:51 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='87'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:51 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='89'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:51 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='91'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:51 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='93'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:51 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='95'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:51 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='97'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:51 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='99'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:51 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='101'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:51 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='103'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:51 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='105'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:51 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='107'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:51 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='109'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:51 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='111'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:51 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='113'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:51 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='115'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:51 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='117'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:51 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='119'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:51 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='121'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:51 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='123'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:51 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='125'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:51 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='127'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:51 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='129'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:51 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='131'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:51 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='133'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:51 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='135'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:51 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='137'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:51 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='139'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:51 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='141'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:51 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='143'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:51 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='145'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:51 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='147'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:51 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='149'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:51 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='151'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:51 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='153'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:51 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='155'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:51 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='157'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:51 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='159'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:51 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='161'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:51 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='163'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:51 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='165'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:51 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='167'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:51 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='169'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:51 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='171'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:51 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='173'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:51 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='175'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:51 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='177'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:51 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='179'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:51 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='181'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:51 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='183'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:51 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='185'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:51 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='187'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:51 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='189'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:51 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='191'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:51 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='193'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:51 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='195'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:51 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='197'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:51 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='199'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:26:51 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='201'>to activate kumaraguru college student profiles</a>
+<div class="">
+<span class="badge badge-default">student profile activation.to activate kumaraguru college student profiles</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Aug 1, 2022 02:26:49 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Aug 1, 2022 02:26:51 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>0</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>1</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'>
+<b>0</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='100%'><b>1</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'><b>0</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='100%'><b>100</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'><b>0</b> steps passed</small></div>
+<div>
+<small data-tooltip='100%'><b>100</b> steps failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"student profile activation":0.62
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>@kumaraguru</td>
+<td>0</td>
+<td>101</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 0,
+failParent: 1,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 100,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 100,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
